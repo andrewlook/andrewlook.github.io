@@ -6063,7 +6063,8 @@ h6, .h6 {
   color: #999; }
 
 .blog-post img {
-  width: 480px; }
+  width: 480px;
+  margin: auto; }
 
 /*
    * Footer
@@ -6090,8 +6091,12 @@ h6, .h6 {
   width: 100%; }
 
 .series-summary-txt {
-  padding-top: 0.5rem; }
+  padding-top: 0.75rem; }
   .series-summary-txt h4 {
+    font-size: 0.75rem; }
+  .series-summary-txt .more {
+    float: right;
+    text-align: right;
     font-size: 0.75rem; }
 
 /*
