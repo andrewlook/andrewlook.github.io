@@ -6041,23 +6041,6 @@ h6, .h6 {
   .blog-title {
     font-size: 3.5rem; } }
 
-/*
-   * Main column and sidebar layout
-   */
-/* Sidebar modules for boxing content */
-.sidebar-module {
-  padding: 1rem; }
-
-.sidebar-module-inset {
-  padding: 1rem;
-  background-color: #f5f5f5;
-  border-radius: .25rem; }
-
-.sidebar-module-inset p:last-child,
-.sidebar-module-inset ul:last-child,
-.sidebar-module-inset ol:last-child {
-  margin-bottom: 0; }
-
 /* Pagination */
 .blog-pagination {
   margin-bottom: 4rem; }
@@ -6078,6 +6061,9 @@ h6, .h6 {
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #999; }
+
+.blog-post img {
+  width: 480px; }
 
 /*
    * Footer
@@ -6100,27 +6086,13 @@ h6, .h6 {
   margin-bottom: 2rem;
   border-bottom: .05rem solid #eee; }
 
-@media (max-width: 720px) {
-  .series-summary-img {
-    margin-bottom: 1rem; } }
-
-.series-summary-txt {
-  padding-left: 0.5rem; }
-
-.series-summary-txt h4 {
-  font-size: 0.75rem; }
-
-.series-summary-txt .description {
-  text-decoration-color: red; }
-
-.series-summary-txt .lead {
-  font-size: 0.75rem !important; }
-
-.series-summary-txt h2 {
-  text-decoration-color: green; }
-
 .series-image {
   width: 100%; }
+
+.series-summary-txt {
+  padding-top: 0.5rem; }
+  .series-summary-txt h4 {
+    font-size: 0.75rem; }
 
 /*
    *  Series page
@@ -6130,5 +6102,19 @@ h6, .h6 {
 
 .series-overview p {
   font-size: 0.75rem; }
+
+/*
+   *  Project page
+   */
+.series-summary-title {
+  padding-bottom: 1.25rem;
+  margin-bottom: 2rem;
+  border-bottom: .05rem solid #eee; }
+
+/*
+   *  About page
+   */
+.about-photo img {
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map*/

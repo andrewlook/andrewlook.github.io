@@ -1,0 +1,162 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- TODO(look): consider adding og:stuff for templating -->
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <script type=text/javascript
+          src="./static/gen/app.js?h=0723566d"
+          charset="utf-8"></script>
+  <link rel="stylesheet"
+        href="./static/gen/styles.css?h=2d8e70eb" />
+
+  <!-- TODO(look): cleanup title templating -->
+  <title>Andrew Look</title>
+</head>
+<body class="striped-0">
+
+  <header>
+      
+      
+    
+      
+<nav class="container">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href="/">
+                Andrew Look
+            </a>
+        </li>
+        
+        
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/portfolio">Portfolio</a>
+            </li>
+        
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/blog">Blog</a>
+            </li>
+        
+            
+            <li class="nav-item">
+                <a class="nav-link " href="/about">About</a>
+            </li>
+        
+    </ul>
+</nav>
+
+  </header>
+
+  <main role="main" class="container">
+    <div class="body-content">
+        
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-3">Hi, I&#39;m Andrew.</h1>
+      <p>I make <a href="/portfolio"><strong>paintings</strong></a> based on machine learning,
+and sometimes I <a href="/blog"><strong>write</strong></a> about AI, art, and code.</p>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="body-content">
+      <div class="row">
+        <div class="col-lg-6">
+          
+            
+<div class="row series-summary">
+    <div class="row series-summary-img">
+        
+        
+        <a href="./portfolio/deepdreams/">
+            <img class="series-image" src="./portfolio/deepdreams/desert_friends/scary-horizon.jpg" alt="deep dreams" />
+        </a>
+    </div>
+    <div class="row series-summary-txt">
+        <a href="./portfolio/deepdreams/">
+            <h4>
+                deep dreams
+                <small class="text-muted">Neural Hallucinations on Memorable Photos</small>
+            </h4>
+        </a>
+    </div>
+</div>
+
+          
+            
+<div class="row series-summary">
+    <div class="row series-summary-img">
+        
+        
+        <a href="./portfolio/startup-stress/">
+            <img class="series-image" src="./portfolio/startup-stress/basic-brunch/blessed-brunch.jpg" alt="startup stress" />
+        </a>
+    </div>
+    <div class="row series-summary-txt">
+        <a href="./portfolio/startup-stress/">
+            <h4>
+                startup stress
+                <small class="text-muted">learning to paint as an outlet for startup stress</small>
+            </h4>
+        </a>
+    </div>
+</div>
+
+          
+            
+<div class="row series-summary">
+    <div class="row series-summary-img">
+        
+        
+        <a href="./portfolio/text-to-image/">
+            <img class="series-image" src="./portfolio/text-to-image/creepy-mouth/weird-mouth.jpg" alt="text-to-image synthesis" />
+        </a>
+    </div>
+    <div class="row series-summary-txt">
+        <a href="./portfolio/text-to-image/">
+            <h4>
+                text-to-image synthesis
+                <small class="text-muted">neural image synthesis on sentences from my dream journal</small>
+            </h4>
+        </a>
+    </div>
+</div>
+
+          
+        </div>
+        <div class="col-lg-6">
+          <ul>
+            
+              <li><a href="./blog/2017/11/post2/">post2</a></li>
+            
+              <li><a href="./blog/post1/">notebook1</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+    </div>
+  </main><!-- /.container -->
+
+  <!-- <footer class="blog-footer">
+    <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+  </footer> -->
+
+  <!-- pageview event is fired asynchronously from analytics/base.js -->
+  <script async src="https://www.google-analytics.com/analytics.js"></script>
+</body>
